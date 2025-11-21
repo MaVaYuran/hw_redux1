@@ -11,6 +11,7 @@ const FieldLayout = ({ onCellClick }) => {
 		});
 		return unsubscribe;
 	}, []);
+
 	return (
 		<div className={styles.cells}>
 			{field &&
